@@ -13,7 +13,7 @@ searchForm.addEventListener("submit", function (event) {
 
 function getCoordinates(cityName) {
   let apiKey = "6126c30186cf07e96a8caf36edb6d33f";
-  let url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=5&appid=${apiKey}`;
+  let url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=5&appid=${apiKey}`;
 
   //START & COMPLETE FETCH
   fetch(url)
